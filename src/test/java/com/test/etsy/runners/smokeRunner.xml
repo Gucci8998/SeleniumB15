@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke test">
+    <test name="Etsy test">
+        <parameter name="searchingItem" value="Iphone 13 case"> </parameter>
+
+        <parameter name="keyword1" value="iphone"> </parameter>
+
+        <parameter name="keyword2" value="13"> </parameter>
+
+        <parameter name="keyword3" value="case"> </parameter>
+
+        <classes>
+
+            <class name="com.test.etsy.tests.IphoneCase13Test"> </class>
+
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Suite">
+
+    <test name="Sauce Tests">
+
+<!--        <parameter name="firstName" value="GG"> </parameter>-->
+
+<!--        <parameter name="lastName" value="VV"> </parameter>-->
+
+<!--        <parameter name="zipcode" value="12345"> </parameter>-->
+
+<!--        <parameter name="message" value="THANK YOU FOR YOUR ORDER"> </parameter>-->
+
+        <classes>
+
+<!--            <class name="com.test.sauce.tests.SauceLoginTest"> </class>-->
+
+            <class name="com.test.sauce.tests.OrderTest"> </class>
+
+        </classes>
+
+    </test>
+
+</suite>
